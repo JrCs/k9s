@@ -33,16 +33,26 @@ const (
 
 // Defines numeric keys for container actions
 const (
-	KeyShift0 int32 = 41
-	KeyShift1 int32 = 33
-	KeyShift2 int32 = 64
-	KeyShift3 int32 = 35
-	KeyShift4 int32 = 36
-	KeyShift5 int32 = 37
-	KeyShift6 int32 = 94
-	KeyShift7 int32 = 38
-	KeyShift8 int32 = 42
-	KeyShift9 int32 = 40
+	// KeyShift0 int32 = 41 // )
+	// KeyShift1 int32 = 33 // !
+	// KeyShift2 int32 = 64 // @
+	// KeyShift3 int32 = 35 // #
+	// KeyShift4 int32 = 36 // $
+	// KeyShift5 int32 = 37 // %
+	// KeyShift6 int32 = 94 // ^
+	// KeyShift7 int32 = 38 // &
+	// KeyShift8 int32 = 42 // *
+	// KeyShift9 int32 = 40 // (
+	KeyShift0 int32 = 224 // à
+	KeyShift1 int32 = 38  // &
+	KeyShift2 int32 = 233 // é
+	KeyShift3 int32 = 34  // "
+	KeyShift4 int32 = 39  // '
+	KeyShift5 int32 = 40  // (
+	KeyShift6 int32 = 45  // -
+	KeyShift7 int32 = 41  // )
+	KeyShift8 int32 = 95  // _
+	KeyShift9 int32 = 40  // (
 )
 
 // Defines char keystrokes
